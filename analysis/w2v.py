@@ -4,8 +4,6 @@ import pandas as pd
 from time import time  
 from collections import defaultdict  
 import numpy as np
-import logging  
-logging.basicConfig(format="%(levelname)s - %(asctime)s: %(message)s", datefmt= '%H:%M:%S', level=logging.INFO)
 from scipy.spatial.distance import cosine
 basecsvpath="data/w2v_models"
 from gensim.models import Word2Vec
